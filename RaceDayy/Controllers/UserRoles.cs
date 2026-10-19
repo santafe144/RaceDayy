@@ -115,7 +115,7 @@ namespace RaceDayy.Controllers
                 ModelState.AddModelError("", "Cannot add selected roles to user!");
                 return View(model);
             }
-
+            
             return RedirectToAction(nameof(Index));
         }
 
